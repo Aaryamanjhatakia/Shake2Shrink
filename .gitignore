@@ -1,9 +1,14 @@
 .DS_Store
 Thumbs.db
 node_modules/
+dist/
 .env
 .env.*
 !.env.example
 *.log
 .vscode/
 .openai/
+
+# Keep local Markdown notes out of Git; retain README files.
+*.[mM][dD]
+![rR][eE][aA][dD][mM][eE].[mM][dD]
